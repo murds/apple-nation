@@ -96,7 +96,7 @@ if (command === "setgame") {
         return;
      }   
      message.delete()
-     bot.channels.get('393641468755050496').send('', {
+     bot.channels.get('352990046942396420').send('', {
      embed: {
          color: 000000,
          author: {
