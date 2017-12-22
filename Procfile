@@ -1,1 +1,1 @@
-worker: node bot.js
+woker: node bot.js
