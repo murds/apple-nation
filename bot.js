@@ -27,7 +27,7 @@ bot.on('guildMemberAdd',  (member) => {
       message.member.sendMessage(````)
   }
     
-    f (command === "L") {
+    if (command === "L") {
     let member = message.mentions.members.first()
     let author = message.author
     if (!member) {
