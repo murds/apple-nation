@@ -23,7 +23,7 @@ bot.on('guildMemberAdd',  (member) => {
     
     if (command === "help") {
     let member = message.mentions.members.first();
-    message.member.sendMessage(``js These are the commands!``)
+    message.member.sendMessage("These are the commands!")
       message.member.sendMessage(````)
   }
     
@@ -111,4 +111,5 @@ if (command === "setgame") {
              text: bot.user.username,
              icon_url: bot.user.avatar.URL,
          }}})}};
+        });
         bot.login(process.env.BOT_TOKEN);
