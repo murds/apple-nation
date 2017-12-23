@@ -3,7 +3,7 @@ const prefix = "*"
 
 
 var ya = [
-   "Welcome to Apple Nation!"
+"Hi there"
     ];
 
 var kill = [
@@ -22,7 +22,7 @@ var fortunes = [
     "You throw a bomb at them, they explode in blood and gore while you laugh",
     "You bring a knife to a gun fight, they pierce you with bullets.",
     "You stab them in the heart.",
-    "You try stabbing them but they're 2 fst  4 u"
+    "You try stabbing them but they're 2 fst  4 u fag"
 
     
 ];
@@ -55,7 +55,7 @@ if (command === "setgame") {
                 }
 
         bot.user.setGame(argsresult)
-        message.channel.send('Game has been set!.')
+        message.channel.send('Game has been set.')
         console.log(`${message.author.username} set the game ${argsresult}`);
     }
     if (message.author.id == "251938340671062036") {
@@ -65,16 +65,15 @@ if (command === "setgame") {
         }
         bot.user.setGame(argsresult)
         
-        message.channel.send('Game has been set!')
+        message.channel.send('Game has been set.')
         console.log(`${message.author.username} set the game ${argsresult}`);
 
 }
-    }
-=
+
     
     if (command === "announce") {
         let author = message.author
-        if (message.author.id == "206236322719989760") {
+        if (message.author.id == "343036330671865856") {
              let msg = message.content.split(' ').slice(1).join(' ');
     if (!msg) {
         message.channel.send('Announce what?')
