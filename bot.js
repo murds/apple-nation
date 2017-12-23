@@ -12,7 +12,7 @@ var kill = [
     "`Maybe`",
     "*Sign pointing to yes*",
     "*Sign pointing to no*",
-    "`It can be proved`",
+    "`It can be proven`",
     "`It is certain`",
     "`I don't know for sure, but I read it as negative`"
 ];
