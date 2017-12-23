@@ -23,8 +23,9 @@ bot.on('guildMemberAdd',  (member) => {
     
     if (command === "help") {
     let member = message.mentions.members.first();
-    message.member.sendMessage("These are the commands!")
-      message.member.sendMessage(````)
+    message.channel.send("Command list has been sent to you in DMS!")
+    message.member.send("These are the commands!")
+      message.member.send("hi")
   }
     
     if (command === "L") {
