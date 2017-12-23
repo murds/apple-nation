@@ -113,4 +113,4 @@ if (command === "setgame") {
              icon_url: bot.user.avatar.URL,
          }}})}};
         });
-        bot.login(process.env.BOT_TOKEN);
+    bot.login(process.env.BOT_TOKEN);
